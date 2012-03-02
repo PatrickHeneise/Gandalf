@@ -54,6 +54,18 @@ To open the "bridge" to everybody, just release the bridge keeper:
     bridgekeeper.release("/forums", "PUT");
     bridgekeeper.release("/forums", "DELETE");
 
+The capabilities of a user should be stored in req.user.capabilities for now.
+
+    req.user { 
+      _id: 'abc',
+      displayName: 'Patrick Heneise',
+      capabilities: [ 
+        '637bcc7323e8ad3a81fb6093a3bb0c60',
+        '48a4e412cad3adbcc27ad1e33b12db48',
+        '511bacd922120733ef6a3a9b6ef61164' ]
+    }
+
+
 Tests & Documentation
 ---------------
 Doesn't exist yet.
