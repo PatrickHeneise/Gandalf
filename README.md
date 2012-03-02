@@ -6,6 +6,9 @@ Introduction
 ---------------
 Gandalf is an authorization and access-control module for Node.js.
 
+The purpose of Gandalf is to have centralized authorization and a
+middleware which works with [express-resource](https://github.com/visionmedia/express-resource).
+
 "Authorization is the function of specifying access rights to resources, 
 which is related to information security and computer security in general 
 and to access control in particular." 
