@@ -1,0 +1,17 @@
+{
+    "author": "Patrick Heneise, @PatrickHeneise"
+  , "name": "Gandalf"
+  , "description": "Authorization module for Node.js."
+  , "version": "0.1.0"
+  , "repository": {
+      "type": "git"
+    , "url": "git://github.com/PatrickHeneise/Gandalf"}
+  , "keywords": ["authorization"]
+  , "main": "index"
+  , "engines": {
+    "node": ">= 0.6.2"}
+  , "dependencies": {
+        "hiredis": "*"
+      , "redis": "*"
+      , "express": "*"}
+}
