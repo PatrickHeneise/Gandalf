@@ -21,7 +21,7 @@ principle of least detriment.
 
 Getting started
 ---------------
-    var Gandalf			 = require('gandalf'),
+    var Gandalf      = require('gandalf'),
         bridgekeeper = Gandalf.guardTheBridge();
 
     app.configure(function() {
